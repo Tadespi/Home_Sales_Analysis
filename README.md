@@ -14,8 +14,7 @@ Create a temporary table called home_sales.
 Use SparkSQL to answer the provided questions regarding average prices for different types of homes sold each year.
 
 # Caching and Uncaching
-- Cache the temporary table home_sales.
-- Check if the temporary table is cached.
+- Cache the temporary table home_sales and check if the temporary table is cached.
 - Run a query using the cached data and measure the runtime.
 - Uncache the home_sales temporary table.
 - Verify that the home_sales temporary table is uncached.
